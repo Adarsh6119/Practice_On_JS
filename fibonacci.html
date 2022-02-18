@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fibonacci Program</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium 
+    minima incidunt architecto assumenda distinctio at magni quibusdam fugiat iure! Blanditiis?
+<script>
+// program to generate fibonacci series up to n terms
+
+// take input from the user
+const number = parseInt(prompt('Enter the number of terms: '));
+let n1 = 0, n2 = 1, nextTerm;
+let k ="" ;
+alert('Fibonacci Series:'+ nextTerm);
+
+for (let i = 1; i <= number; i++) {
+    k=k+" "+n1.toString();
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+}
+alert(k);
+</script>
+</body>
+</html>
